@@ -28,8 +28,8 @@
   background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
         ),
         /* bottom, image */
         url('./images/bg.jpg') center/cover no-repeat;
@@ -60,8 +60,8 @@
   background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
         ),
         /* bottom, image */
         url('./images/bg1.jpg') center/cover no-repeat;
@@ -84,8 +84,8 @@
   background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
         ),
         /* bottom, image */
         url('./images/bg2.jpg') center/cover no-repeat;
