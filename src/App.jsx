@@ -16,6 +16,18 @@ function App() {
           <img src={char} className='char'/>
         </div>
       </div>
+      <div className='container2'>
+
+      </div>
+      <div className='container3'>
+
+      </div>
+      <div className='container4'>
+
+      </div>
+      <div className='container5'>
+
+      </div>
     </>
   );
 }
