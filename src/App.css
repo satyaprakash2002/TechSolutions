@@ -7,20 +7,6 @@
   vertical-align: baseline;
 }
 
-
-.nav-items{
-  display: flex;
-  gap: 1rem;
-  margin-right: 1rem;
-}
-
-.nav{
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  color: aliceblue;
-}
-
 .main-container {
   position: relative;
   width: 100%;
@@ -33,7 +19,6 @@
         ),
         /* bottom, image */
         url('./images/bg.jpg') center/cover no-repeat;
-  text-align: center;
   border: 5px solid #fff; /* Combine border properties into one */
   box-sizing: border-box; /* Include border in the total width and height */
   background-attachment: fixed;
@@ -93,5 +78,11 @@
   border: 5px solid #fff; /* Combine border properties into one */
   box-sizing: border-box; /* Include border in the total width and height */
   background-attachment: fixed;
+}
+
+
+.land-text {
+  color: #fff;
+  font-size: 24px;
 }
 
