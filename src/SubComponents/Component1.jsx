@@ -12,8 +12,8 @@ const Component1 = () => {
     const flickerInterval = setInterval(() => {
       setInterval(()=>{
         setIsFlickering(prev=>!prev)
-      },1000)
-    }, 100000);
+      },2500)
+    }, 2500);
     return () => {
       clearInterval(flickerInterval);
     };
