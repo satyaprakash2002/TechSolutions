@@ -1,0 +1,7 @@
+.cards-effect{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 13px;
+    flex-wrap: wrap;
+}

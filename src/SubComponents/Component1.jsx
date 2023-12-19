@@ -6,6 +6,7 @@ const Component1 = () => {
   return (
     <>
     <Navigation/>
+    <img/>
     </>
   )
 }
