@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Merienda:wght@900&family=Open+Sans:wght@400;800&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Merienda:wght@900&family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.text1 {
+  color: #fff;
+  font-family: "OPEN SANS";
+  font-size: 4.8vw;
+  font-weight: 800;
+}
+
+.text2 {
+  color: #fff;
+  font-family: "OPEN SANS";
+  font-size: 2.1vw;
+  font-weight: 800;
+}
+
+.text3 {
+  color: aliceblue;
+  font-family: "open sans";
+  font-size: 1.2rem;
+  width: 65%;
+  text-align: justify;
+  margin-top: 3rem;
+}
+
+.text-div {
+  overflow: hidden;
+}
+
+.text-container {
+  margin-left: 3rem;
+}
+
+.text1 span {
+  font-family: "Major Mono Display", monospace;
+  color: rgb(150, 149, 149);
+}
+
+.char-container {
+  position: absolute;
+  right: 26rem;
+  top: 10rem;
+}
+
+.light {
+  position: absolute;
+  width: 20rem;
+}
+
+.char1 {
+  position: absolute;
+  width: 20rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text1 {
+    font-size: 3.2rem;
+  }
+  .text2 {
+    font-size: 1.4rem;
+  }
+  .text-container {
+    margin-top: 5rem;
+  }
+  .char-container {
+    right: 22rem;
+    top: 22rem;
+  }
+  .text3 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text1 {
+    font-size: 7vw;
+  }
+  .text2 {
+    font-size: 3.1vw;
+  }
+  .text-container {
+    margin-top: 1.2rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  .char-container {
+    right: 22rem;
+    top: 22rem;
+  }
+  .text3 {
+    width: 100%;
+    font-size: 2.5vw;
+    margin-top: 0;
+  }
+  .char1 {
+    width: 15rem;
+    bottom: 25rem;
+  }
+  .light {
+    width: 15rem;
+    bottom: 25rem;
+  }
+  .char-container {
+    left: 22%;
+    height: 100vh;
+  }
+  @media screen and (min-height: 800px) {
+    .text-container{
+      margin-top: 3.5rem;
+    }
+    .char1 {
+      width: 15rem;
+      bottom: 30rem;
+    }
+    .light {
+      width: 15rem;
+      bottom: 30rem;
+    }
+  }
+}
