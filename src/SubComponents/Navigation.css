@@ -15,4 +15,8 @@
   .nav-items{
     display: none;
   }
+  .responsive_nav{
+    transform: translateY(100vh);
+    background-color: aliceblue;
+  }
 }

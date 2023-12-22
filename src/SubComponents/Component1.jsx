@@ -23,7 +23,7 @@ const Component1 = () => {
   useEffect(() => {
     const t1 = gsap.timeline();
     t1.from(".text1, .text2", {
-      y: 100,
+      y: 150,
     });
     t1.to(".text1, .text2", {
       y: 0,
