@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.project-container{
+  height: 60vh;
+  width: 100%;
+}
+
+.review-container{
+  height: 50vh;
+  width: 100%;
+}
+
+.Project-Text{
+  font-size: 3vw;
+  text-align: center;
+}
+
+.Review-Text{
+  font-size: 3vw;
+  text-align: center;
+}
+
+.PCard{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: -0.5rem;
+}
+
+.PCardContainer{
+  background-color: grey;
+  border-radius: 1.5rem;
+}
+
+.PCardImage{
+  height: 15vw;
+  border: solid black;
+}
+
+.PImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.PCardText{
+  text-align: center;
+}
+
+.slider1 > div{
+  margin: 0 1vw;
+}
+
+.slick-slide:not(.slick-center) .PCardContainer {
+  opacity: 0.5;
+  transition: opacity 1s;
+  transform: scale(0.8);
+}
+
+.RCard{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 2vw;
+}
+
+.RHead{
+  text-align: center;
+}
+
+.RBody{
+  text-align: center;
+}
+
+.slider2 > div{
+  margin: 0 2vw;
+}
