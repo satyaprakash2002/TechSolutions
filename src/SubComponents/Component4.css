@@ -1,59 +1,64 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: "Space Grotesk", sans-serif;
   vertical-align: baseline;
 }
 
-.project-container{
+.project-container {
   height: 60vh;
   width: 100%;
+  font-weight: 700;
 }
 
-.review-container{
-  height: 50vh;
+.review-container {
+  height: 40vh;
   width: 100%;
+  font-weight: 700;
 }
 
-.Project-Text{
+.Project-Text {
   font-size: 3vw;
   text-align: center;
 }
 
-.Review-Text{
+.Review-Text {
   font-size: 3vw;
   text-align: center;
 }
 
-.PCard{
+.PCard {
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: -0.5rem;
 }
 
-.PCardContainer{
+.PCardContainer {
   background-color: grey;
   border-radius: 1.5rem;
+  overflow: hidden;
 }
 
-.PCardImage{
+.PCardImage {
   height: 15vw;
   border: solid black;
 }
 
-.PImage{
+.PImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.PCardText{
+.PCardText {
   text-align: center;
 }
 
-.slider1 > div{
+.slider1 > div {
   margin: 0 1vw;
 }
 
@@ -63,20 +68,112 @@
   transform: scale(0.8);
 }
 
-.RCard{
+.RCard {
   margin-left: 10vw;
   margin-right: 10vw;
   margin-top: 2vw;
 }
 
-.RHead{
+.RHead {
   text-align: center;
 }
 
-.RBody{
+.RBody {
   text-align: center;
 }
 
-.slider2 > div{
+.slider2 > div {
   margin: 0 2vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project-container {
+    height: 60vh;
+  }
+
+  .review-container {
+    height: 40vh;
+  }
+  .PCard {
+    margin-top: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .Project-Text {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+
+  .PCardImage {
+    height: 50vw;
+    border: solid black;
+  }
+
+  .PImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .PCardText {
+    text-align: center;
+  }
+
+  .slider1 > div {
+    margin: 0 0;
+  }
+
+  .slick-slide:not(.slick-center) .PCardContainer {
+    opacity: 0.5;
+    transition: opacity 1s;
+    transform: scale(0.8);
+  }
+  .Review-Text {
+    font-size: 7.5vw;
+    text-align: center;
+  }
+  .RHead {
+    font-size: 4vw;
+  }
+  .RBody {
+    font-size: 2.7vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .PCard {
+    margin-top: 5vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .Project-Text {
+    padding-top: 3vh;
+    font-size: 9.5vw;
+  }
+  .Review-Text {
+    font-size: 9.5vw;
+    text-align: center;
+  }
+  .RHead {
+    font-size: 6vw;
+  }
+  .RBody {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-height: 800px) {
+  .Review-Text {
+    font-size: 8vw;
+    text-align: center;
+  }
+  .RHead {
+    font-size: 5.5vw;
+  }
+  .RBody {
+    font-size: 3.5vw;
+  }
 }
