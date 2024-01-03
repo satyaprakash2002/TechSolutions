@@ -24,11 +24,13 @@
 .Project-Text {
   font-size: 3vw;
   text-align: center;
+  color: black;
 }
 
 .Review-Text {
   font-size: 3vw;
   text-align: center;
+  color: black;
 }
 
 .PCard {
@@ -76,10 +78,12 @@
 
 .RHead {
   text-align: center;
+  color: black;
 }
 
 .RBody {
   text-align: center;
+  color: black;
 }
 
 .slider2 > div {
