@@ -9,16 +9,16 @@ import gsap from "gsap";
 const Component1 = () => {
   const [isFlickering, setIsFlickering] = useState(false);
 
-  // useEffect(() => {
-  //   const flickerInterval = setInterval(() => {
-  //     setInterval(()=>{
-  //       setIsFlickering(prev=>!prev)
-  //     },3500)
-  //   }, 3490);
-  //   return () => {
-  //     clearInterval(flickerInterval);
-  //   };
-  // }, []);
+  useEffect(() => {
+    const flickerInterval = setInterval(() => {
+      setInterval(()=>{
+        setIsFlickering(prev=>!prev)
+      },3500)
+    }, 3490);
+    return () => {
+      clearInterval(flickerInterval);
+    };
+  }, []);
 
   useEffect(() => {
     const t1 = gsap.timeline();

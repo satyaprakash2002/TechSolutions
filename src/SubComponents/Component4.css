@@ -164,16 +164,19 @@
   .RBody {
     font-size: 4vw;
   }
-}
-@media screen and (max-height: 800px) {
-  .Review-Text {
-    font-size: 8vw;
-    text-align: center;
+  .slider1 > div {
+    margin: 0 -5vw;
   }
-  .RHead {
-    font-size: 5.5vw;
-  }
-  .RBody {
-    font-size: 3.5vw;
+  @media screen and (max-height: 800px) {
+    .Review-Text {
+      font-size: 8vw;
+      text-align: center;
+    }
+    .RHead {
+      font-size: 5.5vw;
+    }
+    .RBody {
+      font-size: 3.5vw;
+    }
   }
 }

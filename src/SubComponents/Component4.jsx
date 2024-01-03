@@ -13,27 +13,26 @@ const Component4 = () => {
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
     nextArrow: <SlickArrowRight />,
     prevArrow: <SlickArrowLeft />,
     dots: true,
-    responsive:[{
-      breakpoint: 1024,
-      settings:{
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }]
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const settings2 = {
-    
-    
     infinite: true,
-    
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
     nextArrow: <SlickArrowRight />,
@@ -89,7 +88,7 @@ const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     aria-hidden="true"
     aria-disabled={currentSlide === 0 ? true : false}
     type="button"
-    style={{ display: "block", background: "black", borderRadius:"50%" }}
+    style={{ display: "block", background: "black", borderRadius: "50%" }}
   >
     Previous
   </button>
