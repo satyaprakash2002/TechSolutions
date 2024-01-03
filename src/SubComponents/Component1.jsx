@@ -38,7 +38,7 @@ const Component1 = () => {
 
   return (
     <>
-      
+      <Navigation/>
       <div className="char-container">
         <img src={char} className="char1" />
         <img
