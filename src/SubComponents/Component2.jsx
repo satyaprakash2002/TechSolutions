@@ -1,78 +1,38 @@
-import React from 'react'
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import "bootstrap/dist/css/bootstrap.min.css";
-import './Component2.css'
+// Component2.jsx
+
+import React from 'react';
+import img1 from '../images/techAiB.jpg'; // Update the file extension
+
 const Component2 = () => {
   return (
-    <>
-      <div class="cards-effect">
-        {/* Card 1 */}
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="" />
-          <Card.Body>
-            <Card.Title>Card Title 1</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-
-        {/* Card 2 */}
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="" />
-          <Card.Body>
-            <Card.Title>Card Title 2</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-
-        {/* Add more cards as needed */}
-        {/* Card 3 */}
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="" />
-          <Card.Body>
-            <Card.Title>Card Title 2</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-        {/* Card 4 */}
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="" />
-          <Card.Body>
-            <Card.Title>Card Title 2</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-        {/* Card 5 */}
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="" />
-          <Card.Body>
-            <Card.Title>Card Title 2</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
+    <div className="container">
+      <div className="content">
+        <div className="text">
+          {/* Write your content here */}
+          <p> Welcome to [Your Company Name], where innovation meets excellence!
+            As a premier development service agency, we bring your digital
+            dreams to life. Whether you're seeking cutting-edge web development,
+            seamless mobile app solutions, or transformative digital
+            experiences, we've got you covered. Our team of dedicated experts is
+            passionate about turning ideas into reality, pushing the boundaries
+            of technology to deliver solutions that not only meet but exceed
+            your expectations. From bespoke software development to user-centric
+            design, we are your trusted partner on the journey to digital
+            success. Elevate your online presence with us – where creativity
+            meets functionality, and your vision becomes our mission. Let's
+            build the future together!</p>
+        </div>
+        <div className="imageSize">
+          {/* Insert your image source here */}
+          <img src={img1} alt="Description" />
+        </div>
       </div>
-    </>
+      <div className="carousel">
+        {/* Add your carousel component here */}
+        <p>This is the carousel at the bottom of the container.</p>
+      </div>
+    </div>
   );
-}
+};
 
-export default Component2
+export default Component2;
