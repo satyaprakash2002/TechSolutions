@@ -1,7 +1,6 @@
-// Component2.jsx
-
 import React from "react";
-import img1 from "../images/techAiB.jpg"; // Update the file extension
+import img1 from "../images/techAiB.jpg";
+import './Component2.css'
 
 const Component2 = () => {
   return (
